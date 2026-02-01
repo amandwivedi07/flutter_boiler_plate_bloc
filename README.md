@@ -147,12 +147,7 @@ name: your_app_name
 description: "Your app description"
 ```
 
-Then run:
-
-```bash
-dart run change_app_package_name:main your_app_name
-# Or rename manually in android/ and ios/
-```
+Update package/bundle IDs in `android/app/build.gradle.kts` and `ios/Runner.xcodeproj` as needed.
 
 ### 2. Update Firebase project
 
@@ -184,7 +179,7 @@ flutter test
 
 | Document | Description |
 |----------|-------------|
-| [How to create a new module](README.md#how-to-create-a-new-module) | Step-by-step guide for adding features |
+| [How to create a new module](docs/SETUP_NEW_MODULE.md) | Step-by-step guide for adding features |
 | [BLoC & Clean Architecture guide](docs/README_BLOC.md) | Beginner-friendly BLoC/Cubit and architecture guide |
 
 ---
